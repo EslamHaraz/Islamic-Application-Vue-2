@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,800&family=Josefin+Sans:wght@200;300;400;500;700&family=Rajdhani:wght@300;400;500;600;700&display=swap");
+:root {
+  --first-color: #36be95;
+  --second-color: #07855d;
+  --third-color: #35495e;
+  --body-color: #f2f5fa;
+}
+body {
+  background-color: var(--body-color);
+  font-family: "DM Sans", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Rajdhani", sans-serif;
+  font-family: "Cairo", sans-serif;
+  direction: rtl;
+}
+.first-color {
+  color: var(--first-color);
+}
+.text-color {
+  color: var(--third-color);
+}
+ul {
+  list-style: none;
+}
+.d-Flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+* {
+  transition: 0.2s;
+  transition-timing-function: linear;
+}
+a {
+  text-decoration: none;
+}
+.box-component {
+  background-color: #f2f5fa;
+  border-radius: 5px;
+  box-shadow: 0px 0px 1px 2px #edededa8;
+}
+.box-component:hover {
+  color: var(--first-color);
+}
+.border-b {
+  border-bottom: 2px solid var(--first-color);
+}
+.w-fit-content {
+  width: fit-content;
+}
+.cursor-ponter {
+  cursor: pointer;
+}
